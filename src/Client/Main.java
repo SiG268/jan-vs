@@ -23,8 +23,8 @@ public class Main {
 		System.out.println("Calling url=" + url);
 		Client client = ClientBuilder.newClient();
 		Response response = client.target(url).request(MediaType.APPLICATION_XML).get();
-		Customer c = response.readEntity(Customer.class);
-		System.out.println(c);
+		USer c = response.readEntity(User.class);
+		System.out.println(u);
 	}
 
 }

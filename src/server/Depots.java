@@ -10,6 +10,9 @@ public class Depots {
 	List<Double> positions;
 	private double depot_wealth;
 
+	public Depots() {
+	}
+
 	public Depots(List<Double> positions) {
 		this.positions = positions;
 	}

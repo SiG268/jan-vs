@@ -1,21 +1,21 @@
-package server;
+package Client;
 
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
-public class Customer {
+public class User {
 
 	private String name;
 	private List<Depots> depotlist;
 	private double wealth;
 
-	public Customer() {
+	public User() {
 
 	}
 
-	public Customer(String name, List<Depots> depotlist, double wealth) {
+	public User(String name, List<Depots> depotlist, double wealth) {
 		this.name = name;
 		this.depotlist = depotlist;
 		this.wealth = wealth;
